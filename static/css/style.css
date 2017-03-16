@@ -3,7 +3,7 @@ html {
   background: #ededed; }
   html body {
     overflow: hidden;
-    font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, STHeiti, 华文细黑, sans-serif;
+    font-family: 'PT serif',微軟正黑體,微软雅黑,华文细黑,Microsoft Yahei,Hiragino Sans GB,sans-serif;
     line-height: 36px; }
     html body .container {
       position: absolute;
@@ -44,8 +44,7 @@ html {
           filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
       html body .container .contact ul li {
         list-style: none;
-        display: inline-block;
-        padding: 0 2px; }
+        display: inline-block; }
         html body .container .contact ul li a {
           cursor: pointer; }
     html body .footer {

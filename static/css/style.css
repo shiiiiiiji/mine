@@ -55,7 +55,10 @@ html {
 
 @media screen and (max-width: 768px) {
   body {
-    background: #ededed; } }
+    background: #ededed; }
+
+  canvas {
+    display: none; } }
 @media screen and (max-width: 375px) {
   .container {
     top: 28px !important;

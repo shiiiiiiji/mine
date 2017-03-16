@@ -56,6 +56,9 @@ html {
 @media screen and (max-width: 375px) {
   .container {
     top: 28px !important;
-    margin-top: 0 !important; } }
+    margin-top: 0 !important; }
+
+  body {
+    background: #ededed; } }
 
 /*# sourceMappingURL=style.css.map */

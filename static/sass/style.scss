@@ -1,77 +1,77 @@
-html{
+body{
 	background: #ededed;
-	body{
-	    overflow: hidden;
-	    font-family: 'PT serif',微軟正黑體,微软雅黑,华文细黑,Microsoft Yahei,Hiragino Sans GB,sans-serif;
-	    line-height: 36px;
-		.container{
-			position: absolute;
-			top: 40%;
-			left: 50%;
-			box-sizing: border-box;
-		    text-align: center;
-		    width: 300px;
-		    height: 380px;
-		    margin-top: -190px;
-		    margin-left:-150px;
-		    border-radius: 5px;
-		    padding: 20px 5px;
-		    opacity: 0.98;
-		    animation: fade-in;
-		    animation-duration: 1s;
-		    -webkit-animation: fade-in 1s;
-		    background: rgba(230, 244, 249, 0.6);
-		    box-shadow: 0 5px 20px #555;
-		    -moz-box-shadow: 0 5px 20px #555;
-			.info{
-			 	.intro{
-			 		img{
-			 			width: 128px;
-					    background-size: cover;
-					    border-radius: 200px;
-					    box-shadow: 0px 0px 40px rgb(255, 255, 255);
-					    border: 3px solid rgba(255, 255, 255, 0.61);
-					    opacity: 1;
-					    margin: 0 auto;
-					    transition: all 1.0s;
-					    &:hover{
-					    	box-shadow: 0 0 10px #fff;
-						    -webkit-box-shadow: 0 0 19px #fff;
-						    transform: rotate(360deg);
-						    -ms-transform: rotate(360deg);
-						    -moz-transform: rotate(360deg);
-						    -webkit-transform: rotate(360deg);
-						    -o-transform: rotate(360deg);
-						    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-					    }
-			 		}
+	font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+    font-size: 1.5rem;
+    color: #666;
+    .container{
+        width: 24rem;
+        height: 32rem;
+    	position: absolute;
+    	top: 40%;
+    	left: 50%;
+    	-webkit-transform: translate(-50%, -50%);
+    	transform: translate(-50%, -50%);
 
-			 	}
-			}
-			.contact{
-				ul{
-					li{
-						list-style: none;
-						display: inline-block;
-						padding: 0 2px;
-						a{
-							cursor: pointer;
-						}
-					}
-				}
-			}
-		}
-		.footer{
-			position: absolute;
-			width: 100%;
-			text-align: center;
-			bottom: 0;
-		}
-	}
-}
-@media  screen and (max-width: 375px) {
-	.container{
-		top: 28px!important;
-		margin-top: 0!important;
-	}
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+
+        -webkit-box-align: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+
+    	border-radius: 5px;
+    	opacity: .98;
+    	animation: fade-in;
+        animation-duration: 1s;
+        -webkit-animation: fade-in 1s;
+        background: rgba(230, 244, 249, 0.6);
+        box-shadow: 0 5px 20px #555;
+        -moz-box-shadow: 0 5px 20px #555;
+        .info{
+            .intro{
+                text-align: center;
+                img{
+                    width: 8rem;
+                    height: 8rem;
+                    background-size: cover;
+                    border-radius: 50%;
+                    box-shadow: 0px 0px 40px white;
+                    border: 3px solid rgba(255, 255, 255, 0.61);
+                    opacity: 1;
+                    transition: all 1.0s;
+
+                    &:hover{
+                        box-shadow: 0 0 10px #fff;
+                        -webkit-box-shadow: 0 0 19px #fff;
+                        transform: rotate(360deg);
+                        -ms-transform: rotate(360deg);
+                        -moz-transform: rotate(360deg);
+                        -webkit-transform: rotate(360deg);
+                        -o-transform: rotate(360deg);
+                        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+                    }
+                }
+            }
+            .contact{
+                text-align: center;
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .footer{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: 1rem;
+    }
 }
